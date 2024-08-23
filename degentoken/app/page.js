@@ -34,6 +34,9 @@ export default function Home() {
   const [burnAmount, setBurnAmount] = useState();
 
   const urls = [
+    "https://ipfs.io/ipfs/QmfK2ttedU6wxgYUF3EBXF1o5HkdwqVrqVRrDniaPbC9LL",
+    "https://ipfs.io/ipfs/QmRTk8waq4g9AmRvdSEVCRt7TmNkYa1WUrVdxeptvZJpvF",
+    "https://ipfs.io/ipfs/QmYKk5MWjTSuvS7teJvgYon5LHMzu52CheVNsP3p8rDEi7",
     "https://ipfs.io/ipfs/QmTMtjc8x6UBHeitfom4u27c2JqQTmd41jV4yX2wx7Rvty",
     "https://ipfs.io/ipfs/Qmcn7zKK6fgA3BhEiNCuJLAw6fdbw4cR1TR65HQgV6pM8j",
     "https://ipfs.io/ipfs/QmZXBFMtHSqHRLfu5jsWwBsLLRmWjT3WMwhXJ2pabdC961",
@@ -238,7 +241,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-black">
+    <div className="bg-[#FFEAC5]">
       <NavigationBar
         ConnectToMetamask={ConnectToMetamask}
         accounts={accounts ? accounts[0] : "No Account Conne"}
