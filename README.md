@@ -7,7 +7,7 @@ In this Project i have implemented the ERC20 (Tokens) and ERC721URIStorage (NFTs
 
 ## There are two Contracts in this
 
-- DegenERC20
+- DegenTokenGame
 - GameAsset
 
 ## Through this Project i tried to show the practical implementation of the Tokens and NFTs like
@@ -16,7 +16,7 @@ In this Project i have implemented the ERC20 (Tokens) and ERC721URIStorage (NFTs
 - How Tokens can be transfered
 - How Tokens can be minted (only by owner)
 
-## Explanation of DegenERC20 Contract
+## Explanation of DegenTokenGame Contract
 
 ```Solidity
 // SPDX-License-Identifier: MIT
@@ -49,13 +49,13 @@ contract DegenERC20 is ERC20 {
         _mint(_address, _amount);
     }
 
-    ///@notice for checking the balance of token of caller account.
+
 
     function checkingBalance() external view returns (uint) {
         return balanceOf(msg.sender);
     }
 
-    ///@notice to transfer token to other account(friend)
+
 
     function tranferTokens(address _recepient, uint _amount) external {
         require(balanceOf(msg.sender) >= _amount);
@@ -93,6 +93,7 @@ contract DegenERC20 is ERC20 {
 
     receive() external payable {}
 }
+
 ```
 
 ### Constructor
@@ -166,7 +167,7 @@ contract GameAsset is ERC721URIStorage {
 
 - This function return the string of the minted URI of the current User.
 
-Author : Pradeep Sahu
+Author : Kumar Devashish
 
 ## Website Design
 
