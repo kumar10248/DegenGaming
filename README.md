@@ -172,23 +172,13 @@ Author : Kumar Devashish
 ## Website Design
 
 ## Initial Web Design (without Metamask connected)
-
-<img width="1469" alt="image" src="https://github.com/PradeepSahhu/DegenGameTokenNFTFullStack/assets/94203408/b26ea8be-1fc0-49b3-8cd9-42f67b7cbf8e">
+![Screenshot_20240824_235958](https://github.com/user-attachments/assets/e30164fc-11e0-41a1-934b-2625fa73fea3)
 
 ## Initial Web Design (Metamask Connected)
-
-<img width="1470" alt="image" src="https://github.com/PradeepSahhu/DegenGameTokenNFTFullStack/assets/94203408/4687078e-3cf5-4d10-80b5-293b9d675faf">
+![Screenshot_20240825_000318](https://github.com/user-attachments/assets/0f5276f6-5bce-44b4-a8d1-ff364f92b20b)
 
 ## Bought NFT UI
-
-<img width="1470" alt="image" src="https://github.com/PradeepSahhu/DegenGameTokenNFTFullStack/assets/94203408/809d1ffe-bbdb-497e-9b25-72d64c42e992">
+![Screenshot_20240825_000630](https://github.com/user-attachments/assets/e8ac3bbd-333c-43b3-acd5-61495cac4604)
 
 ## NFT MarketPlace
-
-<img width="1466" alt="image" src="https://github.com/PradeepSahhu/DegenGameTokenNFTFullStack/assets/94203408/6a6b6d9e-96ba-4e0c-b8e9-b0cb6a9776e2">
-
-## Learn In public
-
-LinkedIn Post : https://www.linkedin.com/posts/pradeepsahuu_improved-my-nft-marketplace-where-you-can-activity-7213144087267356672-No52?utm_source=share&utm_medium=member_desktop
-
-Vercel Production / Deployed Link : https://degen-game-token-nft-full-stack-h8fw.vercel.app/
+![Screenshot_20240825_000433](https://github.com/user-attachments/assets/809b32ec-c064-4f59-a422-e55a539e74a6)
